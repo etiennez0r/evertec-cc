@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'Products' => 'Productos',
+    'Orders' => 'Ordenes',
+    'Email' => 'Email',
+    'Name' => 'Nombre',
+    'Phone' => 'Telefono',
+    'Total' => 'Total',
+    'Next' => 'Siguiente',
+    'Cart' => 'Carrito',
+    'Confirm_order' => 'Confirmar orden',
+    'Proceed_to_pay' => 'Proceder al pago',
+    'Order_no' => 'Order #',
+    'Order_status' => 'Estado de la orden:',
+    'CREATED' => 'Creada',
+    'REJECTED' => 'Rechazada',
+    'PENDING' => 'Pending',
+    'PAYED' => 'Pagada',
+    'Customer' => 'Cliente',
+    'Product' => 'Producto',
+    'Order_total' => 'Total',
+    'My_orders' => 'Mis ordenes',
+    'All_orders' => 'Todas las ordenes',
+    'Status' => 'Estado',
+    'Retry_payment' => 'Reintentar pago',
+];

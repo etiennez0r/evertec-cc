@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply rounded text-xs sm:text-sm;
+}
+
+.btn-orange {
+    @apply bg-orange-500 text-gray-200;
+}
+
+.textbox {
+    @apply shadow appearance-none border rounded w-full py-1 px-2 text-gray-700 leading-tight mt-1;
+}
+
+.table-list {
+    @apply w-full table-auto;
+}
+
+.table-list thead tr {
+    @apply bg-gray-100 border-b;
+}
+
+.table-list thead tr th {
+    @apply text-left px-3 py-3;
+}
+
+.table-list tbody tr {
+    @apply border-b;
+}
+
+.table-list tbody tr:hover {
+    @apply bg-gray-200;
+}
+
+.table-list tbody tr td {
+    @apply py-1;
+}
+
