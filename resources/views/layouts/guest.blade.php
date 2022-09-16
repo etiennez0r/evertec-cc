@@ -19,12 +19,12 @@
                     <div class="inline-block">
                         <img width="200" height="71" src="https://www.evertecinc.com/wp-content/uploads/2020/07/logo-evertec.png">
                     </div>
-                    <div class="inline-block text-orange-400 text-4xl font-mono float-right">
+                    <div class="inline-block text-orange-400 sm:text-4xl font-mono float-right">
                         Coding Challenge
                     </div>
                 </div>
 
-                <header class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg p-4">
+                <header class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg p-4 w-max">
                     <a href="/" class="text-blue-600">
                         {{ __('messages.Products') }}
                     </a>
